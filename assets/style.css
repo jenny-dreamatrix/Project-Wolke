@@ -1,0 +1,192 @@
+@font-face {
+  font-family: Merriweather-Bold-Italic;
+  src: url(./Merriweather-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: Merriweather;
+  src: url(./Merriweather-Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+li,
+h1,
+h2,
+h4 {
+  font-family: "Merriweather-Bold-Italic";
+}
+
+h3,
+p,
+a {
+  font-family: "Merriweather";
+}
+
+h1,
+h3,
+h4{
+    color: white;
+    font-size: 3rem;
+    text-shadow: 3px 3px 10px rgb(181, 181, 181);
+}
+
+h1 {
+  text-align: center;
+  padding: 30vh;
+}
+
+h2 {
+  font-size: 2.4rem;
+  text-align: center;
+  padding: 13vh 0 3vh 0;
+}
+
+h3 {
+  line-height: 7vh;
+  width: 50vw;
+  padding: 15vh 5vh;
+}
+
+h4 {
+  line-height: 7vh;
+  text-align: right;
+  padding: 10vh 5vh 0 5vh;
+}
+
+h5 {
+  font-size: 4rem;
+  color: rgb(116, 116, 116);
+  line-height: 5vh;
+  width: 50vw;
+  padding: 8vh 5vh 0 5vh;
+}
+
+p {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 0 12vw 2vh 12vw;
+  color: rgb(116, 116, 116);
+}
+
+header{
+    text-align: right;
+    height: 7vh;
+    padding: 15px 5vw;
+}
+
+header a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: rgb(116, 116, 116);
+}
+
+footer {
+  height: 8vh;
+  padding: 2.5vh 0;
+}
+
+/* styles für index -------------------------------*/
+
+.menu-background {
+  background: url(./dominik-schroder-FIKD9t5_5zQ-unsplash.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  padding: 40vh 0;
+  text-align: center;
+}
+
+li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 3px 3px 10px rgb(181, 181, 181);
+  line-height: 50px;
+  font-size: 3rem;
+}
+
+li a:hover {
+  color: rgb(116, 116, 116);
+  font-size: 3.2rem;
+}
+
+/* styles für home --------------------------------*/
+
+main section {
+  height: 100vh;
+}
+
+.home-background-section {
+  background-color: rgb(246, 246, 246);
+  padding: 13vh;
+}
+
+.home-text-section {
+  height: 70vh;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+div {
+  width: 75vw;
+  margin: auto;
+}
+
+.wolken-oben {
+  background: url(../assets/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg) no-repeat
+    center;
+  background-size: cover;
+}
+
+.wolken-unten {
+  background: url(../assets/engin-akyurt-gJILnne_HFg-unsplash.jpg) no-repeat
+    center;
+  background-size: cover;
+}
+
+/* styles für stories -----------------------------*/
+
+
+.stories-wrapper {
+    width: 90vw;
+}
+
+.stories-section {
+  height: 50vh;
+  margin-bottom: 7vh;
+}
+
+.stories-section:nth-of-type(1) {
+  background: url(./jason-blackeye-ap3LXI0fPJY-unsplash.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+}
+
+.stories-section:nth-of-type(2) {
+  background: url(./engin-akyurt-gJILnne_HFg-unsplash.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+}
+
+.stories-section:nth-of-type(3) {
+  background: url(./dominik-dancs-3Eqc3Ph4oRg-unsplash.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+}
+
+.stories-section:nth-of-type(4) {
+  background: url(./elcarito-MHNjEBeLTgw-unsplash.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+}
